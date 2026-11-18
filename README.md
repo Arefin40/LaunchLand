@@ -1,5 +1,9 @@
 # LAUNCHLAND - Tech Product Discovery Platform
 
+<picture>
+   <img src="public/images/LaunchLand.png"  alt="Website Preview"/>
+</picture>
+
 A tech product discovery and launch platform designed to help users explore, showcase, and share innovative digital products, including web applications, AI tools, software, games, and mobile apps. LaunchLand provides a community-driven platform where users can submit products, engage through upvotes and reviews, and discover trending innovations.
 
 **Live Demo:** [LaunchLand](https://sa-launchland.web.app/)
@@ -12,7 +16,7 @@ A tech product discovery and launch platform designed to help users explore, sho
 
 ## Tech Stack
 
-**Prerequisites** 
+**Prerequisites**
 Make sure you have the following installed:
 
 - Git
@@ -23,6 +27,7 @@ Make sure you have the following installed:
 - Stripe Account
 
 **Frontend**
+
 - React 18 - Component-based UI development
 - Vite 5 - Fast development server and build tool
 - JavaScript - Application logic
@@ -39,6 +44,7 @@ Make sure you have the following installed:
 - Swiper - Responsive sliders and carousels
 
 **Backend**
+
 - Node.js - Server-side JavaScript runtime
 - Express.js - REST API development
 - MongoDB - Database management
@@ -50,6 +56,7 @@ Make sure you have the following installed:
 - Nodemon - Automatic server restarting during development
 
 **Hosting**
+
 - Firebase Hosting - Frontend deployment
 - Vercel - Backend deployment
 
@@ -153,6 +160,7 @@ pnpm run preview
 ```
 
 ## Challenges Faced During Development
+
 - **Role-Based Authorization:** Implementing different permission levels for Users, Moderators, and Admins while securing both frontend routes and backend API endpoints. Firebase Authentication, JWT, and role-based authorization helped establish controlled access.
 - **Product Moderation Workflow:** Managing the lifecycle of submitted products, including review, approval, rejection, and reported content. A structured moderation system helped maintain control over published products.
 - **Voting Integrity:** Preventing users from voting multiple times on the same product while maintaining reliable community-driven rankings. Backend-side vote validation helped ensure voting consistency.
